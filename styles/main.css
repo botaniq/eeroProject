@@ -1,7 +1,56 @@
-
-
-
+:root {
+  --background-promobar: #161f49;
+}
 
 body {
-    font-size: 18px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* promobar */
+
+.promobar {
+  background-color: var(--background-promobar);
+}
+.promobar__text {
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  color: #ffffff;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+}
+.nav__list {
+  display: flex;
+}
+.header__container {
+  display: flex;
 }
