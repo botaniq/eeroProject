@@ -1,18 +1,17 @@
 :root {
   --background-promobar: #161f49;
+  --primery-text-color: #404040;
+  --primery-btn-color: #2468ff;
 }
-
 body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
 p {
   margin: 0;
 }
-
 h1,
 h2,
 h3,
@@ -21,12 +20,25 @@ h5 {
   margin: 0;
   padding: 0;
 }
-
 ul,
 ol {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primary-btn {
+  background-color: var(--primery-btn-color);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.79;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  text-transform: uppercase;
 }
 
 /* promobar */
@@ -50,7 +62,55 @@ ol {
 }
 .nav__list {
   display: flex;
+  margin-left: 195px;
 }
 .header__container {
   display: flex;
+}
+
+.logo {
+  margin-left: 36px;
+  margin-top: 16px;
+}
+
+.logo img {
+  height: 47px;
+}
+.nav__link {
+  color: var(--primery-text-color);
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.1;
+  text-align: center;
+  padding: 30px 0 25px;
+  display: block;
+}
+/*.nav__item + .nav__item {
+  margin-left: 37px;
+}*/
+
+/* .nav__item {
+  margin-left: 37px;
+}
+.nav__item:first-child {
+  margin-left: 0;
+} */
+
+.nav__item:not(:first-child) {
+  margin-left: 37px;
+}
+
+.header__btn {
+  margin-left: auto;
+  padding: 27px 64px;
+}
+.hero {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.hero-conteiner {
+  background-image: url("/images/bgHero.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
 }
