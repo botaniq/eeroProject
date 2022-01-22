@@ -104,3 +104,13 @@ a {
   margin-left: auto;
   padding: 27px 64px;
 }
+.hero {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.hero-conteiner {
+  background-image: url("/images/bgHero.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
