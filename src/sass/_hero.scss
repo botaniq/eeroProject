@@ -1,0 +1,21 @@
+.hero {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.hero-conteiner {
+  background-image: url('/images/bgHero.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 72px;
+  line-height: 1.11;
+  padding-top: 120px;
+}
+
+.hero-text {
+  color: #fff;
+}
