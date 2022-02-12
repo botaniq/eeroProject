@@ -1,0 +1,17 @@
+.slider__item {
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__item--slide1 {
+  background-image: url(../images/slide1.jpg);
+}
+
+.slider__item--slide2 {
+  background-image: url(../images/slide2.jpg);
+}
+
+.slider__item--slide3 {
+  background-image: url(../images/slide3.jpg);
+}
