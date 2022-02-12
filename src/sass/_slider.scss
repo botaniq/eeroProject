@@ -2,8 +2,54 @@
   height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 301px 353px 149px;
+  text-align: center;
+  color: #ffffff;
 }
+.slider__title {
+  margin-bottom: 44px;
+}
+.slider__label {
+  margin-bottom: 118px;
+}
+.slider__btn {
+  padding: 17px 66px 21px;
+}
+.slick-dots li button {
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+}
+.slick-dots {
+  bottom: 72px;
+}
+.slick-dots li.slick-active button {
+  background-color: black;
+}
+.slick-prev {
+  left: 25px;
+  z-index: 2;
 
+  &::before {
+    font-size: 50px;
+  }
+
+  &:active::before {
+    color: red;
+  }
+}
+.slick-next {
+  right: 50px;
+  z-index: 2;
+
+  &::before {
+    font-size: 50px;
+  }
+
+  &:active::before {
+    color: red;
+  }
+}
 .slider__item--slide1 {
   background-image: url(../images/slide1.jpg);
 }
